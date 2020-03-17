@@ -1,0 +1,2230 @@
+version: 0.12.2
+filePath: thesis.tex
+options:
+  $BIBINPUTS:
+    - $ROOTDIR
+    - $ROOTDIR/$OUTDIR
+    - ''
+  $TEXINPUTS:
+    - $ROOTDIR
+    - $ROOTDIR/$OUTDIR
+    - ''
+  bibtexEngine: bibtex
+  cleanPatterns:
+    - '**/*.aux'
+    - '**/*.aux.bak'
+    - '**/*.bbl'
+    - '**/*.bcf'
+    - '**/*.blg'
+    - '**/*.dvi'
+    - '**/*.fdb_latexmk'
+    - '**/*.fls'
+    - '**/*.idx'
+    - '**/*.idx.bak'
+    - '**/*.ilg'
+    - '**/*.ind'
+    - '**/*.lof'
+    - '**/*.log'
+    - '**/*.lol'
+    - '**/*.lot'
+    - '**/*.nav'
+    - '**/*.out'
+    - '**/*.pdf'
+    - '**/*.ps'
+    - '**/*.snm'
+    - '**/*.synctex.gz'
+    - '**/*.toc'
+    - '/**/_minted-${JOB}'
+    - '/${OUTDIR}/sage-plots-for-${JOB}.tex'
+    - /missfont.log
+    - /texput.log
+    - /texput.aux
+  dviToPdfEngine: xdvipdfmx
+  engine: pdflatex
+  epstopdfBoundingBox: default
+  epstopdfOutputPath: $DIR_0/$NAME_0.pdf
+  indexAutomaticRanges: true
+  indexEngine: makeindex
+  indexOrdering: word
+  indexSorting: default
+  knitrConcordance: true
+  knitrOutputPath: $JOB.tex
+  lhs2texStyle: poly
+  literateAgdaEngine: agda
+  literateHaskellEngine: lhs2TeX
+  loadCache: true
+  loadUserOptions: true
+  outputFormat: pdf
+  phaseCycles: 20
+  pweaveCacheDirectory: pweave-cache-for-$JOB
+  pweaveFigureDirectory: pweave-figures-for-$JOB
+  pweaveKernel: python3
+  pweaveOutputFormat: tex
+  pweaveOutputPath: $JOB.tex
+  saveCache: true
+  severity: info
+  validateCache: true
+  synctex: true
+  copyTargetsToRoot: true
+  outputDirectory: ''
+  intermediatePostScript: false
+  $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
+files:
+  dicy-instance.yaml-ParsedYAML:
+    timeStamp: 2020-03-17T02:20:08.027Z
+    jobNames: []
+    value:
+      severity: info
+    type: ParsedYAML
+  dicy.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  thesis.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  thesis.tex-ParsedLaTeXMagic:
+    timeStamp: 2020-03-17T02:20:08.060Z
+    jobNames: []
+    value: {}
+    type: ParsedLaTeXMagic
+  /Users/nkerman/Library/Application Support/dicy/config.yaml-ParsedYAML:
+    timeStamp: 2020-03-17T02:20:08.057Z
+    jobNames: []
+    value:
+      synctex: true
+      engine: pdflatex
+      severity: warning
+      copyTargetsToRoot: true
+      outputDirectory: ''
+      outputFormat: pdf
+      cleanPatterns:
+        - '**/*.aux'
+        - '**/*.aux.bak'
+        - '**/*.bbl'
+        - '**/*.bcf'
+        - '**/*.blg'
+        - '**/*.dvi'
+        - '**/*.fdb_latexmk'
+        - '**/*.fls'
+        - '**/*.idx'
+        - '**/*.idx.bak'
+        - '**/*.ilg'
+        - '**/*.ind'
+        - '**/*.lof'
+        - '**/*.log'
+        - '**/*.lol'
+        - '**/*.lot'
+        - '**/*.nav'
+        - '**/*.out'
+        - '**/*.pdf'
+        - '**/*.ps'
+        - '**/*.snm'
+        - '**/*.synctex.gz'
+        - '**/*.toc'
+        - '/**/_minted-${JOB}'
+        - '/${OUTDIR}/sage-plots-for-${JOB}.tex'
+        - /missfont.log
+        - /texput.log
+        - /texput.aux
+      intermediatePostScript: false
+      $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
+    type: ParsedYAML
+  thesis.tex:
+    timeStamp: 2020-03-17T18:36:01.758Z
+    jobNames: []
+    hash: DzzQTJfjaOmHO5iE6D0hRd8PXojsp/ug4TeXijxV07U=
+    type: LaTeX
+    subType: yalephd
+  /Users/nkerman/Library/Application Support/dicy/config.yaml:
+    timeStamp: 2020-03-17T02:23:23.080Z
+    jobNames: []
+    type: YAML
+  x.y-Nil:
+    jobNames: []
+    type: Nil
+  thesis.fls-ParsedFileListing:
+    timeStamp: 2020-03-17T02:20:10.175Z
+    jobNames: []
+    value:
+      messages: []
+      inputs:
+        - /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc
+        - /usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
+        - /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+        - /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+        - /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+        - /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+        - /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+        - /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+        - >-
+          /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+        - /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
+        - /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+        - /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+        - /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+        - /usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+        - /usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+        - >-
+          /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+        - >-
+          /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+        - >-
+          /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/base/bk12.clo
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/base/book.cls
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/epsfig.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/backref.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+        - >-
+          /usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+        - >-
+          /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+        - >-
+          /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/times.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/tools/afterpage.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+        - /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
+        - /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+        - /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
+        - /usr/local/texlive/2019/texmf.cnf
+        - abstract.tex
+        - acknowledgements.tex
+        - thesis.aux
+        - thesis.out
+        - thesis.tex
+        - yalephd.cls
+      outputs:
+        - thesis.aux
+        - thesis.log
+        - thesis.out
+        - thesis.pdf
+      calls: []
+    type: ParsedFileListing
+  thesis.log-ParsedLaTeXLog:
+    timeStamp: 2020-03-17T18:36:02.699Z
+    jobNames: []
+    value:
+      messages:
+        - name: pdfTeX
+          severity: info
+          text: setspace 2011/12/19 v6.7a set line spacing
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
+          log:
+            file: thesis.log
+            range:
+              start: 33
+              end: 33
+        - name: pdfTeX
+          severity: info
+          text: 'graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)'
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+          log:
+            file: thesis.log
+            range:
+              start: 35
+              end: 35
+        - name: pdfTeX
+          severity: info
+          text: keyval 2014/10/28 v1.15 key=value parser (DPC)
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+          log:
+            file: thesis.log
+            range:
+              start: 37
+              end: 37
+        - name: pdfTeX
+          severity: info
+          text: 'graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)'
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+          log:
+            file: thesis.log
+            range:
+              start: 40
+              end: 40
+        - name: pdfTeX
+          severity: info
+          text: trig 2016/01/03 v1.10 sin cos tan (DPC)
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+          log:
+            file: thesis.log
+            range:
+              start: 42
+              end: 42
+        - severity: info
+          name: pdfTeX
+          category: Package graphics
+          text: 'Driver file: pdftex.def'
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+            range:
+              start: 99
+              end: 99
+          log:
+            file: thesis.log
+            range:
+              start: 46
+              end: 46
+        - name: pdfTeX
+          severity: info
+          text: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+          log:
+            file: thesis.log
+            range:
+              start: 53
+              end: 53
+        - name: pdfTeX
+          severity: info
+          text: times 2005/04/12 PSNFSS-v9.2a (SPQR)
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/times.sty
+          log:
+            file: thesis.log
+            range:
+              start: 55
+              end: 55
+        - name: pdfTeX
+          severity: info
+          text: float 2001/11/08 v1.3d Float enhancements (AL)
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+          log:
+            file: thesis.log
+            range:
+              start: 57
+              end: 57
+        - name: pdfTeX
+          severity: info
+          text: amssymb 2013/01/14 v3.01 AMS font symbols
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+          log:
+            file: thesis.log
+            range:
+              start: 64
+              end: 64
+        - name: pdfTeX
+          severity: info
+          text: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+          log:
+            file: thesis.log
+            range:
+              start: 66
+              end: 66
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathfrak' in version `bold' U/euf/m/n
+            --> U/euf/b/n.
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+            range:
+              start: 106
+              end: 106
+          log:
+            file: thesis.log
+            range:
+              start: 70
+              end: 71
+        - name: pdfTeX
+          severity: info
+          text: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/tools/afterpage.sty
+          log:
+            file: thesis.log
+            range:
+              start: 73
+              end: 73
+        - name: pdfTeX
+          severity: info
+          text: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/epsfig.sty
+          log:
+            file: thesis.log
+            range:
+              start: 78
+              end: 78
+        - name: pdfTeX
+          severity: info
+          text: >-
+            longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi
+            change
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+          log:
+            file: thesis.log
+            range:
+              start: 82
+              end: 82
+        - name: pdfTeX
+          severity: info
+          text: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+          log:
+            file: thesis.log
+            range:
+              start: 99
+              end: 99
+        - name: pdfTeX
+          severity: info
+          text: >-
+            hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref
+            (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: thesis.log
+            range:
+              start: 101
+              end: 102
+        - name: pdfTeX
+          severity: info
+          text: 'hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)'
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 104
+              end: 104
+        - name: pdfTeX
+          severity: info
+          text: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 105
+              end: 105
+        - name: pdfTeX
+          severity: info
+          text: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 106
+              end: 106
+        - name: pdfTeX
+          severity: info
+          text: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 107
+              end: 107
+        - name: pdfTeX
+          severity: info
+          text: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 108
+              end: 108
+        - severity: info
+          name: pdfTeX
+          category: Package ifluatex
+          text: LuaTeX not detected.
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 109
+              end: 109
+        - name: pdfTeX
+          severity: info
+          text: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 110
+              end: 110
+        - severity: info
+          name: pdfTeX
+          category: Package ifvtex
+          text: VTeX not detected.
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 111
+              end: 111
+        - name: pdfTeX
+          severity: info
+          text: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 112
+              end: 112
+        - name: pdfTeX
+          severity: info
+          text: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 113
+              end: 113
+        - name: pdfTeX
+          severity: info
+          text: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 114
+              end: 114
+        - name: pdfTeX
+          severity: info
+          text: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 115
+              end: 115
+        - name: pdfTeX
+          severity: info
+          text: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 116
+              end: 116
+        - name: pdfTeX
+          severity: info
+          text: >-
+            pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX
+            (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 117
+              end: 118
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: LuaTeX not detected.
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 119
+              end: 119
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdf@primitive is available.
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 120
+              end: 120
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdf@ifprimitive is available.
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 121
+              end: 121
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdfdraftmode found.
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 122
+              end: 122
+        - name: pdfTeX
+          severity: info
+          text: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 123
+              end: 123
+        - name: pdfTeX
+          severity: info
+          text: >-
+            bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers
+            (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 124
+              end: 125
+        - name: pdfTeX
+          severity: info
+          text: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 126
+              end: 126
+        - name: pdfTeX
+          severity: info
+          text: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: thesis.log
+            range:
+              start: 127
+              end: 127
+        - severity: info
+          name: pdfTeX
+          category: Package hobsub
+          text: Skipping package `hobsub' (already loaded).
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: thesis.log
+            range:
+              start: 129
+              end: 129
+        - name: pdfTeX
+          severity: info
+          text: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: thesis.log
+            range:
+              start: 130
+              end: 130
+        - name: pdfTeX
+          severity: info
+          text: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: thesis.log
+            range:
+              start: 131
+              end: 131
+        - name: pdfTeX
+          severity: info
+          text: xcolor-patch 2016/05/16 xcolor patch
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: thesis.log
+            range:
+              start: 132
+              end: 132
+        - name: pdfTeX
+          severity: info
+          text: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: thesis.log
+            range:
+              start: 133
+              end: 133
+        - severity: info
+          name: pdfTeX
+          category: Package atveryend
+          text: \AP@enddocument detected (standard20110627).
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: thesis.log
+            range:
+              start: 134
+              end: 134
+        - name: pdfTeX
+          severity: info
+          text: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: thesis.log
+            range:
+              start: 135
+              end: 135
+        - name: pdfTeX
+          severity: info
+          text: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: thesis.log
+            range:
+              start: 136
+              end: 136
+        - name: pdfTeX
+          severity: info
+          text: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: thesis.log
+            range:
+              start: 137
+              end: 137
+        - name: pdfTeX
+          severity: info
+          text: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+          log:
+            file: thesis.log
+            range:
+              start: 139
+              end: 139
+        - name: pdfTeX
+          severity: info
+          text: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+          log:
+            file: thesis.log
+            range:
+              start: 141
+              end: 141
+        - name: pdfTeX
+          severity: info
+          text: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+          log:
+            file: thesis.log
+            range:
+              start: 143
+              end: 143
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Hyper figures OFF
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4519
+              end: 4519
+          log:
+            file: thesis.log
+            range:
+              start: 157
+              end: 157
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Link nesting OFF
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4524
+              end: 4524
+          log:
+            file: thesis.log
+            range:
+              start: 158
+              end: 158
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Hyper index ON
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4527
+              end: 4527
+          log:
+            file: thesis.log
+            range:
+              start: 159
+              end: 159
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Plain pages OFF
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4534
+              end: 4534
+          log:
+            file: thesis.log
+            range:
+              start: 160
+              end: 160
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Backreferencing ON
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4537
+              end: 4537
+          log:
+            file: thesis.log
+            range:
+              start: 161
+              end: 161
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Implicit mode ON; LaTeX internals redefined.
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+          log:
+            file: thesis.log
+            range:
+              start: 162
+              end: 162
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Bookmarks ON
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4772
+              end: 4772
+          log:
+            file: thesis.log
+            range:
+              start: 163
+              end: 163
+        - name: pdfTeX
+          severity: info
+          text: backref 2016/05/21 v1.39 Bibliographical back referencing
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/backref.sty
+          log:
+            file: thesis.log
+            range:
+              start: 165
+              end: 165
+        - name: pdfTeX
+          severity: info
+          text: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+          log:
+            file: thesis.log
+            range:
+              start: 167
+              end: 167
+        - severity: info
+          name: pdfTeX
+          category: Package uniquecounter
+          text: New unique counter `rerunfilecheck'
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+            range:
+              start: 282
+              end: 282
+          log:
+            file: thesis.log
+            range:
+              start: 168
+              end: 169
+        - name: pdfTeX
+          severity: info
+          text: 'url 2013/09/16 ver 3.4 Verb mode for urls, etc.'
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+          log:
+            file: thesis.log
+            range:
+              start: 174
+              end: 174
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \url
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 5125
+              end: 5125
+          log:
+            file: thesis.log
+            range:
+              start: 176
+              end: 176
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Hyper figures OFF
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6380
+              end: 6380
+          log:
+            file: thesis.log
+            range:
+              start: 181
+              end: 181
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Link nesting OFF
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6385
+              end: 6385
+          log:
+            file: thesis.log
+            range:
+              start: 182
+              end: 182
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Hyper index ON
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6388
+              end: 6388
+          log:
+            file: thesis.log
+            range:
+              start: 183
+              end: 183
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: backreferencing ON
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6393
+              end: 6393
+          log:
+            file: thesis.log
+            range:
+              start: 184
+              end: 184
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Link coloring OFF
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6400
+              end: 6400
+          log:
+            file: thesis.log
+            range:
+              start: 185
+              end: 185
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Link coloring with OCG OFF
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6405
+              end: 6405
+          log:
+            file: thesis.log
+            range:
+              start: 186
+              end: 186
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: PDF/A mode OFF
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6410
+              end: 6410
+          log:
+            file: thesis.log
+            range:
+              start: 187
+              end: 187
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \ref
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6450
+              end: 6450
+          log:
+            file: thesis.log
+            range:
+              start: 188
+              end: 188
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \pageref
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6454
+              end: 6454
+          log:
+            file: thesis.log
+            range:
+              start: 189
+              end: 189
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: 'Driver (autodetected): hpdftex.'
+          source:
+            file: thesis.tex
+          log:
+            file: thesis.log
+            range:
+              start: 194
+              end: 194
+        - name: pdfTeX
+          severity: info
+          text: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+          log:
+            file: thesis.log
+            range:
+              start: 201
+              end: 201
+        - severity: info
+          name: pdfTeX
+          category: Package color
+          text: 'Driver file: pdftex.def'
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+            range:
+              start: 147
+              end: 147
+          log:
+            file: thesis.log
+            range:
+              start: 205
+              end: 205
+        - name: pdfTeX
+          severity: info
+          text: titlesec 2016/03/21 v2.10.2 Sectioning titles
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+          log:
+            file: thesis.log
+            range:
+              start: 207
+              end: 207
+        - name: pdfTeX
+          severity: info
+          text: 'natbib 2010/09/13 8.31b (PWD, AO)'
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+          log:
+            file: thesis.log
+            range:
+              start: 218
+              end: 218
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \cite
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+            range:
+              start: 694
+              end: 694
+          log:
+            file: thesis.log
+            range:
+              start: 221
+              end: 221
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OML/cmm/m/it ... okay
+          source:
+            file: thesis.tex
+            range:
+              start: 24
+              end: 24
+          log:
+            file: thesis.log
+            range:
+              start: 228
+              end: 229
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for T1/cmr/m/n ... okay
+          source:
+            file: thesis.tex
+            range:
+              start: 24
+              end: 24
+          log:
+            file: thesis.log
+            range:
+              start: 230
+              end: 231
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OT1/cmr/m/n ... okay
+          source:
+            file: thesis.tex
+            range:
+              start: 24
+              end: 24
+          log:
+            file: thesis.log
+            range:
+              start: 232
+              end: 233
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OMS/cmsy/m/n ... okay
+          source:
+            file: thesis.tex
+            range:
+              start: 24
+              end: 24
+          log:
+            file: thesis.log
+            range:
+              start: 234
+              end: 235
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OMX/cmex/m/n ... okay
+          source:
+            file: thesis.tex
+            range:
+              start: 24
+              end: 24
+          log:
+            file: thesis.log
+            range:
+              start: 236
+              end: 237
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for U/cmr/m/n ... okay
+          source:
+            file: thesis.tex
+            range:
+              start: 24
+              end: 24
+          log:
+            file: thesis.log
+            range:
+              start: 238
+              end: 239
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for PD1/pdf/m/n ... okay
+          source:
+            file: thesis.tex
+            range:
+              start: 24
+              end: 24
+          log:
+            file: thesis.log
+            range:
+              start: 240
+              end: 241
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for OT1+ptm
+          source:
+            file: thesis.tex
+            range:
+              start: 24
+              end: 24
+          log:
+            file: thesis.log
+            range:
+              start: 242
+              end: 242
+        - name: pdfTeX
+          severity: info
+          text: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+          log:
+            file: thesis.log
+            range:
+              start: 259
+              end: 259
+        - name: pdfTeX
+          severity: info
+          text: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+          log:
+            file: thesis.log
+            range:
+              start: 261
+              end: 261
+        - severity: info
+          name: pdfTeX
+          category: Package epstopdf-base
+          text: Redefining graphics rule for `.eps'
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+            range:
+              start: 438
+              end: 438
+          log:
+            file: thesis.log
+            range:
+              start: 263
+              end: 264
+        - severity: info
+          name: pdfTeX
+          category: Package grfext
+          text: >-
+            Graphics extension search list:
+            [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+            \AppendGraphicsExtensions.
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+            range:
+              start: 456
+              end: 456
+          log:
+            file: thesis.log
+            range:
+              start: 265
+              end: 268
+        - severity: info
+          name: pdfTeX
+          category: Package backref
+          text: '** backref set up for natbib **'
+          source:
+            file: thesis.tex
+            range:
+              start: 24
+              end: 24
+          log:
+            file: thesis.log
+            range:
+              start: 274
+              end: 274
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Link coloring OFF
+          source:
+            file: thesis.tex
+            range:
+              start: 24
+              end: 24
+          log:
+            file: thesis.log
+            range:
+              start: 275
+              end: 275
+        - name: pdfTeX
+          severity: info
+          text: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+          source:
+            file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+          log:
+            file: thesis.log
+            range:
+              start: 277
+              end: 277
+        - name: pdfTeX
+          severity: info
+          text: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+          log:
+            file: thesis.log
+            range:
+              start: 279
+              end: 279
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \ref
+          source:
+            file: thesis.tex
+            range:
+              start: 24
+              end: 24
+          log:
+            file: thesis.log
+            range:
+              start: 283
+              end: 283
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \pageref
+          source:
+            file: thesis.tex
+            range:
+              start: 24
+              end: 24
+          log:
+            file: thesis.log
+            range:
+              start: 284
+              end: 284
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \nameref
+          source:
+            file: thesis.tex
+            range:
+              start: 24
+              end: 24
+          log:
+            file: thesis.log
+            range:
+              start: 285
+              end: 285
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `OT1/ptm/bx/n' in size <12> not available Font shape
+            `OT1/ptm/b/n' tried instead.
+          source:
+            file: abstract.tex
+            range:
+              start: 2
+              end: 2
+          log:
+            file: thesis.log
+            range:
+              start: 297
+              end: 298
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `OT1/ptm/bx/n' in size <17.28> not available Font shape
+            `OT1/ptm/b/n' tried instead.
+          source:
+            file: abstract.tex
+            range:
+              start: 2
+              end: 2
+          log:
+            file: thesis.log
+            range:
+              start: 299
+              end: 300
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `OT1/ptm/bx/n' in size <14.4> not available Font shape
+            `OT1/ptm/b/n' tried instead.
+          source:
+            file: abstract.tex
+            range:
+              start: 2
+              end: 2
+          log:
+            file: thesis.log
+            range:
+              start: 301
+              end: 302
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `OT1/ptm/bx/n' in size <20.74> not available Font shape
+            `OT1/ptm/b/n' tried instead.
+          source:
+            file: thesis.tex
+            range:
+              start: 48
+              end: 48
+          log:
+            file: thesis.log
+            range:
+              start: 307
+              end: 308
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for OMS+ptm
+          source:
+            file: thesis.tex
+            range:
+              start: 48
+              end: 48
+          log:
+            file: thesis.log
+            range:
+              start: 317
+              end: 317
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `OMS/ptm/m/n' in size <12> not available Font shape
+            `OMS/cmsy/m/n' tried instead.
+          source:
+            file: thesis.tex
+            range:
+              start: 48
+              end: 48
+          log:
+            file: thesis.log
+            range:
+              start: 321
+              end: 322
+        - severity: info
+          name: pdfTeX
+          category: Package atveryend
+          text: Empty hook `BeforeClearDocument'
+          source:
+            file: acknowledgements.tex
+            range:
+              start: 1
+              end: 1
+          log:
+            file: thesis.log
+            range:
+              start: 326
+              end: 326
+        - severity: info
+          name: pdfTeX
+          category: Package atveryend
+          text: Empty hook `AfterLastShipout'
+          source:
+            file: acknowledgements.tex
+            range:
+              start: 1
+              end: 1
+          log:
+            file: thesis.log
+            range:
+              start: 327
+              end: 327
+        - severity: info
+          name: pdfTeX
+          category: Package atveryend
+          text: Executing hook `AtVeryEndDocument'
+          source:
+            file: acknowledgements.tex
+            range:
+              start: 1
+              end: 1
+          log:
+            file: thesis.log
+            range:
+              start: 331
+              end: 331
+        - severity: info
+          name: pdfTeX
+          category: Package atveryend
+          text: Executing hook `AtEndAfterFileList'
+          source:
+            file: acknowledgements.tex
+            range:
+              start: 1
+              end: 1
+          log:
+            file: thesis.log
+            range:
+              start: 332
+              end: 332
+        - severity: info
+          name: pdfTeX
+          category: Package rerunfilecheck
+          text: >-
+            File `thesis.out' has not changed. Checksum:
+            D41D8CD98F00B204E9800998ECF8427E;0.
+          source:
+            file: acknowledgements.tex
+          log:
+            file: thesis.log
+            range:
+              start: 333
+              end: 334
+        - severity: info
+          name: pdfTeX
+          category: Package atveryend
+          text: Empty hook `AtVeryVeryEnd'
+          source:
+            file: acknowledgements.tex
+            range:
+              start: 1
+              end: 1
+          log:
+            file: thesis.log
+            range:
+              start: 335
+              end: 335
+      inputs: []
+      outputs:
+        - thesis.pdf
+      calls: []
+    type: ParsedLaTeXLog
+  thesis.aux-ParsedLaTeXAuxilary:
+    timeStamp: 2020-03-17T02:20:10.164Z
+    jobNames: []
+    value:
+      commands:
+        - relax
+        - providecommand
+        - providecommand
+        - HyperFirstAtBeginDocument
+        - global
+        - gdef
+        - global
+        - gdef
+        - gdef
+        - AtEndDocument
+        - let
+        - let
+        - fi
+        - fi
+        - global
+        - gdef
+        - providecommand
+        - providecommand
+    type: ParsedLaTeXAuxilary
+  /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc:
+    timeStamp: 2006-12-10T01:13:44.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map:
+    timeStamp: 2017-11-27T23:19:31.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb:
+    timeStamp: 2009-07-20T23:47:11.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb:
+    timeStamp: 2006-01-09T23:35:48.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb:
+    timeStamp: 2006-01-09T23:35:48.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii:
+    timeStamp: 2016-04-22T22:14:39.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty:
+    timeStamp: 2010-09-12T22:41:30.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty:
+    timeStamp: 2016-05-18T22:01:00.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty:
+    timeStamp: 2018-09-11T21:39:27.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty:
+    timeStamp: 2016-06-10T21:47:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty:
+    timeStamp: 2013-02-01T23:58:28.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty:
+    timeStamp: 2013-02-01T23:58:28.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/base/bk12.clo:
+    timeStamp: 2018-12-11T22:32:49.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/tex/latex/base/book.cls:
+    timeStamp: 2018-12-11T22:32:49.000Z
+    jobNames: []
+    type: LaTeXClass
+  /usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty:
+    timeStamp: 2006-01-12T23:55:51.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg:
+    timeStamp: 2016-04-06T21:37:33.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg:
+    timeStamp: 2016-06-14T22:41:10.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def:
+    timeStamp: 2018-01-09T22:36:08.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/epsfig.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/backref.sty:
+    timeStamp: 2016-06-11T23:25:30.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def:
+    timeStamp: 2018-12-01T22:48:59.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty:
+    timeStamp: 2018-12-01T22:48:59.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty:
+    timeStamp: 2016-06-11T23:25:30.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def:
+    timeStamp: 2018-12-01T22:48:59.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg:
+    timeStamp: 2010-07-13T16:52:39.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg:
+    timeStamp: 2009-09-28T00:19:49.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty:
+    timeStamp: 2010-12-07T01:39:19.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty:
+    timeStamp: 2016-05-18T22:01:00.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty:
+    timeStamp: 2016-05-18T22:01:00.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty:
+    timeStamp: 2016-05-18T22:01:00.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty:
+    timeStamp: 2016-05-18T22:01:00.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty:
+    timeStamp: 2016-05-18T22:01:00.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd:
+    timeStamp: 2006-01-13T00:03:49.000Z
+    jobNames: []
+    type: FontDescription
+  /usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd:
+    timeStamp: 2006-01-13T00:03:49.000Z
+    jobNames: []
+    type: FontDescription
+  /usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/times.sty:
+    timeStamp: 2006-08-27T18:14:13.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty:
+    timeStamp: 2011-12-20T01:23:12.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty:
+    timeStamp: 2016-03-24T22:28:44.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/tools/afterpage.sty:
+    timeStamp: 2018-04-06T21:33:45.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty:
+    timeStamp: 2019-01-06T22:04:13.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty:
+    timeStamp: 2013-12-31T23:17:24.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf:
+    timeStamp: 2019-05-05T21:35:14.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map:
+    timeStamp: 2019-05-08T19:01:04.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt:
+    timeStamp: 2019-05-08T19:01:26.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf.cnf:
+    timeStamp: 2019-05-08T18:52:26.000Z
+    jobNames: []
+  abstract.tex:
+    timeStamp: 2020-03-17T18:14:46.876Z
+    jobNames: []
+    hash: Ullf35VnqElDRxjHPBb0dszoyaoodMj74pa9oZDpT7U=
+    type: TeX
+  acknowledgements.tex:
+    timeStamp: 2020-03-17T02:16:28.082Z
+    jobNames: []
+    hash: yDeJqVL8tL4PRY/jgEuVxazhFPjPGZkZHhdVSJB4z3Q=
+    type: TeX
+  yalephd.cls:
+    timeStamp: 2020-03-16T23:11:46.942Z
+    jobNames: []
+    hash: mXwDsCl6GkSW9GsDX6vTYuTn5PPdfoG+Nc2yvvGegU8=
+    type: LaTeXClass
+  thesis.aux:
+    timeStamp: 2020-03-17T18:36:02.663Z
+    jobNames: []
+    hash: fkcvTXxHhYJbYMWCi/8VyeHPWPwdsuDUfAwULWl6vk8=
+    type: LaTeXAuxilary
+  thesis.fls:
+    timeStamp: 2020-03-17T18:36:02.669Z
+    jobNames: []
+    hash: JYD1+81fKl8NQcCUJkX/FE6AQu+d7k3wQdaDpzev6Vo=
+    type: FileListing
+  thesis.log:
+    timeStamp: 2020-03-17T18:36:02.686Z
+    jobNames: []
+    hash: u3KfwrvRjUH+dyAclqSbzV8C4/r2LKbL0tYBsXM5hBI=
+    type: LaTeXLog
+    subType: pdfTeX
+  thesis.synctex.gz:
+    timeStamp: 2020-03-17T18:36:02.686Z
+    jobNames: []
+    hash: alu9jEfx2lZpz73hgAWbXGGTrzZicWgPQPIFJf3MmLg=
+    type: SyncTeX
+  thesis.pdf:
+    timeStamp: 2020-03-17T18:36:02.686Z
+    jobNames: []
+    hash: ILo0coJJiRr7DdzTivVj6MEIL5Ccku2wdaGWkrk1Uqc=
+    type: PortableDocumentFormat
+  thesis.out:
+    timeStamp: 2020-03-17T18:36:02.484Z
+    jobNames: []
+    hash: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+    type: OUT
+  thesis.blg:
+    timeStamp: 2020-03-17T18:33:38.481Z
+    jobNames: []
+    hash: fRvUpMKnBPLv2G8NyzTV6FlzhfHaseHJo+v0/E0sbXg=
+    type: BibTeXLog
+    subType: BibTeX
+  thesis.blg-ParsedBibTeXLog:
+    timeStamp: 2020-03-17T18:36:02.201Z
+    jobNames: []
+    value:
+      messages: []
+      inputs:
+        - thesis.aux
+      outputs: []
+      calls: []
+    type: ParsedBibTeXLog
+rules:
+  - name: ApplyOptions
+    command: load
+    phase: initialize
+    parameters: []
+    inputs:
+      - file: dicy.yaml-ParsedYAML
+        type: default
+      - file: thesis.yaml-ParsedYAML
+        type: default
+      - file: thesis.tex-ParsedLaTeXMagic
+        type: default
+      - file: dicy-instance.yaml-ParsedYAML
+        type: default
+      - file: /Users/nkerman/Library/Application Support/dicy/config.yaml-ParsedYAML
+        type: default
+    outputs: []
+  - name: LoadAndValidateCache
+    command: load
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: Migrate
+    command: load
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ApplyOptions
+    command: load
+    phase: execute
+    parameters: []
+    inputs:
+      - file: dicy.yaml-ParsedYAML
+        type: default
+      - file: thesis.yaml-ParsedYAML
+        type: default
+      - file: thesis.tex-ParsedLaTeXMagic
+        type: default
+      - file: dicy-instance.yaml-ParsedYAML
+        type: default
+      - file: /Users/nkerman/Library/Application Support/dicy/config.yaml-ParsedYAML
+        type: default
+    outputs: []
+  - name: ParseOptionsFile
+    command: load
+    phase: execute
+    parameters: []
+    inputs:
+      - file: /Users/nkerman/Library/Application Support/dicy/config.yaml
+        type: default
+    outputs:
+      - file: /Users/nkerman/Library/Application Support/dicy/config.yaml-ParsedYAML
+        type: default
+  - name: ParseLaTeXMagic
+    command: load
+    phase: execute
+    parameters:
+      - thesis.tex
+    inputs:
+      - file: thesis.tex
+        type: default
+    outputs:
+      - file: thesis.tex-ParsedLaTeXMagic
+        type: default
+  - name: AssignJobNames
+    command: load
+    phase: finalize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: FindLogFiles
+    command: build
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: LaTeX
+    command: build
+    phase: execute
+    parameters:
+      - thesis.tex
+    inputs:
+      - file: thesis.tex
+        type: default
+      - file: thesis.fls-ParsedFileListing
+        type: default
+      - file: thesis.log-ParsedLaTeXLog
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/base/bk12.clo
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/base/book.cls
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/epsfig.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/backref.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/times.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/tools/afterpage.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
+        type: default
+      - file: /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+        type: default
+      - file: /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
+        type: default
+      - file: /usr/local/texlive/2019/texmf.cnf
+        type: default
+      - file: abstract.tex
+        type: default
+      - file: acknowledgements.tex
+        type: default
+      - file: yalephd.cls
+        type: default
+      - file: thesis.aux
+        type: default
+      - file: thesis.out
+        type: default
+    outputs:
+      - file: thesis.aux
+        type: default
+      - file: thesis.fls
+        type: default
+      - file: thesis.log
+        type: default
+      - file: thesis.synctex.gz
+        type: target
+      - file: thesis.pdf
+        type: target
+      - file: thesis.out
+        type: default
+  - name: LogProducedTargets
+    command: build
+    phase: finalize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: CheckForMissingBuildRule
+    command: build
+    phase: finalize
+    parameters:
+      - thesis.tex
+    inputs:
+      - file: thesis.tex
+        type: default
+    outputs: []
+  - name: FindLogFiles
+    command: log
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ReportLogMessages
+    command: log
+    phase: execute
+    parameters:
+      - thesis.log-ParsedLaTeXLog
+    inputs:
+      - file: thesis.log-ParsedLaTeXLog
+        type: default
+    outputs: []
+  - name: SaveCache
+    command: save
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ParseLaTeXAuxilary
+    command: build
+    phase: execute
+    parameters:
+      - thesis.aux
+    inputs:
+      - file: thesis.aux
+        type: default
+    outputs:
+      - file: thesis.aux-ParsedLaTeXAuxilary
+        type: default
+  - name: ParseFileListing
+    command: build
+    phase: execute
+    parameters:
+      - thesis.fls
+    inputs:
+      - file: thesis.fls
+        type: default
+    outputs:
+      - file: thesis.fls-ParsedFileListing
+        type: default
+  - name: ParseLaTeXLog
+    command: build
+    phase: execute
+    parameters:
+      - thesis.log
+    inputs:
+      - file: thesis.log
+        type: default
+    outputs:
+      - file: thesis.log-ParsedLaTeXLog
+        type: default
+  - name: ParseLaTeXLog
+    command: log
+    phase: execute
+    parameters:
+      - thesis.log
+    inputs:
+      - file: thesis.log
+        type: default
+    outputs:
+      - file: thesis.log-ParsedLaTeXLog
+        type: default
+  - name: ParseBibTeXLog
+    command: build
+    phase: execute
+    parameters:
+      - thesis.blg
+    inputs:
+      - file: thesis.blg
+        type: default
+    outputs:
+      - file: thesis.blg-ParsedBibTeXLog
+        type: default
+  - name: ParseBibTeXLog
+    command: log
+    phase: execute
+    parameters:
+      - thesis.blg
+    inputs:
+      - file: thesis.blg
+        type: default
+    outputs:
+      - file: thesis.blg-ParsedBibTeXLog
+        type: default
+  - name: ReportLogMessages
+    command: log
+    phase: execute
+    parameters:
+      - thesis.blg-ParsedBibTeXLog
+    inputs:
+      - file: thesis.blg-ParsedBibTeXLog
+        type: default
+    outputs: []

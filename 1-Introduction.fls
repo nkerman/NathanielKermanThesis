@@ -1,0 +1,6 @@
+PWD /Users/nkerman/OneDrive - Yale University/Spring_2020/Thesis/NathanielKermanThesis
+INPUT /usr/local/texlive/2019/texmf.cnf
+INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT 1-Introduction.tex
+OUTPUT 1-Introduction.log
