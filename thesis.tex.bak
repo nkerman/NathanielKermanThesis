@@ -32,7 +32,8 @@
 	% Dissertation Title: Subtitle
 	\title{Nathaniel Kerman's Thesis:\\\large Improving the Wavelength Calibration for the EXPRES Spectrometer}
 	% Full Name of Author (as it should appear on the diploma)
-	\author{Nathaniel Eden Baird Kerman}
+	\author{Nathaniel Eden Baird Kerman
+	}
 	%
 	% where there is an advisory committee, only the chairperson is listed
 	\advisor{Debra Fischer}
@@ -43,17 +44,17 @@
 %	\singlespace
 
     \input{abstract}
-	
+
     \maketitle
     \makecopyright
-	
+
     \input{acknowledgements}
     \input{dedication}
-	
-    \tableofcontents % 
+
+    \tableofcontents %
     \listoffigures   % The standard LaTeX form works well.
-    \listoftables    % 
-    
+    \listoftables    %
+
     \mainmatter      % Reset the pagenumbering options
 	\include{1-Introduction}
 	\include{2-WavelengthCalibration}
@@ -62,7 +63,7 @@
 
    \addcontentsline{toc}{chapter}{Bibliography} % To get an entry in the TOC.
     \setstretch{1.0}
-    
+
     \bibliography{bibfile}
 
 

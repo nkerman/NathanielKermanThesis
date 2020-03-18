@@ -71,7 +71,7 @@ options:
   $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
 files:
   dicy-instance.yaml-ParsedYAML:
-    timeStamp: 2020-03-17T02:20:08.027Z
+    timeStamp: 2020-03-17T23:26:50.604Z
     jobNames: []
     value:
       severity: info
@@ -130,20 +130,20 @@ files:
       $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
     type: ParsedYAML
   thesis.tex:
-    timeStamp: 2020-03-17T18:36:01.758Z
+    timeStamp: 2020-03-17T23:35:16.356Z
     jobNames: []
-    hash: DzzQTJfjaOmHO5iE6D0hRd8PXojsp/ug4TeXijxV07U=
+    hash: Fp0JLOi67LvZB/vv4U0VdPO4gZXlCDHZLqQcOUftjqM=
     type: LaTeX
     subType: yalephd
   /Users/nkerman/Library/Application Support/dicy/config.yaml:
-    timeStamp: 2020-03-17T02:23:23.080Z
+    timeStamp: 2020-03-17T23:26:50.613Z
     jobNames: []
     type: YAML
   x.y-Nil:
     jobNames: []
     type: Nil
   thesis.fls-ParsedFileListing:
-    timeStamp: 2020-03-17T02:20:10.175Z
+    timeStamp: 2020-03-17T21:18:27.311Z
     jobNames: []
     value:
       messages: []
@@ -213,21 +213,35 @@ files:
         - /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
         - /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
         - /usr/local/texlive/2019/texmf.cnf
+        - 1-Introduction.aux
+        - 1-Introduction.tex
+        - 2-WavelengthCalibration.aux
+        - 2-WavelengthCalibration.tex
         - abstract.tex
         - acknowledgements.tex
+        - dedication.tex
         - thesis.aux
+        - thesis.bbl
+        - thesis.lof
+        - thesis.lot
         - thesis.out
         - thesis.tex
+        - thesis.toc
         - yalephd.cls
       outputs:
+        - 1-Introduction.aux
+        - 2-WavelengthCalibration.aux
         - thesis.aux
+        - thesis.lof
         - thesis.log
+        - thesis.lot
         - thesis.out
         - thesis.pdf
+        - thesis.toc
       calls: []
     type: ParsedFileListing
   thesis.log-ParsedLaTeXLog:
-    timeStamp: 2020-03-17T18:36:02.699Z
+    timeStamp: 2020-03-17T23:26:51.618Z
     jobNames: []
     value:
       messages:
@@ -1162,40 +1176,12 @@ files:
           log:
             file: thesis.log
             range:
-              start: 228
-              end: 229
-        - severity: info
-          name: pdfTeX
-          category: LaTeX Font
-          text: Checking defaults for T1/cmr/m/n ... okay
-          source:
-            file: thesis.tex
-            range:
-              start: 24
-              end: 24
-          log:
-            file: thesis.log
-            range:
-              start: 230
-              end: 231
-        - severity: info
-          name: pdfTeX
-          category: LaTeX Font
-          text: Checking defaults for OT1/cmr/m/n ... okay
-          source:
-            file: thesis.tex
-            range:
-              start: 24
-              end: 24
-          log:
-            file: thesis.log
-            range:
               start: 232
               end: 233
         - severity: info
           name: pdfTeX
           category: LaTeX Font
-          text: Checking defaults for OMS/cmsy/m/n ... okay
+          text: Checking defaults for T1/cmr/m/n ... okay
           source:
             file: thesis.tex
             range:
@@ -1209,7 +1195,7 @@ files:
         - severity: info
           name: pdfTeX
           category: LaTeX Font
-          text: Checking defaults for OMX/cmex/m/n ... okay
+          text: Checking defaults for OT1/cmr/m/n ... okay
           source:
             file: thesis.tex
             range:
@@ -1223,7 +1209,7 @@ files:
         - severity: info
           name: pdfTeX
           category: LaTeX Font
-          text: Checking defaults for U/cmr/m/n ... okay
+          text: Checking defaults for OMS/cmsy/m/n ... okay
           source:
             file: thesis.tex
             range:
@@ -1237,7 +1223,7 @@ files:
         - severity: info
           name: pdfTeX
           category: LaTeX Font
-          text: Checking defaults for PD1/pdf/m/n ... okay
+          text: Checking defaults for OMX/cmex/m/n ... okay
           source:
             file: thesis.tex
             range:
@@ -1251,7 +1237,7 @@ files:
         - severity: info
           name: pdfTeX
           category: LaTeX Font
-          text: Try loading font information for OT1+ptm
+          text: Checking defaults for U/cmr/m/n ... okay
           source:
             file: thesis.tex
             range:
@@ -1261,7 +1247,35 @@ files:
             file: thesis.log
             range:
               start: 242
-              end: 242
+              end: 243
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for PD1/pdf/m/n ... okay
+          source:
+            file: thesis.tex
+            range:
+              start: 24
+              end: 24
+          log:
+            file: thesis.log
+            range:
+              start: 244
+              end: 245
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for OT1+ptm
+          source:
+            file: thesis.tex
+            range:
+              start: 24
+              end: 24
+          log:
+            file: thesis.log
+            range:
+              start: 246
+              end: 246
         - name: pdfTeX
           severity: info
           text: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1271,8 +1285,8 @@ files:
           log:
             file: thesis.log
             range:
-              start: 259
-              end: 259
+              start: 263
+              end: 263
         - name: pdfTeX
           severity: info
           text: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
@@ -1281,8 +1295,8 @@ files:
           log:
             file: thesis.log
             range:
-              start: 261
-              end: 261
+              start: 265
+              end: 265
         - severity: info
           name: pdfTeX
           category: Package epstopdf-base
@@ -1296,8 +1310,8 @@ files:
           log:
             file: thesis.log
             range:
-              start: 263
-              end: 264
+              start: 267
+              end: 268
         - severity: info
           name: pdfTeX
           category: Package grfext
@@ -1314,8 +1328,8 @@ files:
           log:
             file: thesis.log
             range:
-              start: 265
-              end: 268
+              start: 269
+              end: 272
         - severity: info
           name: pdfTeX
           category: Package backref
@@ -1328,8 +1342,8 @@ files:
           log:
             file: thesis.log
             range:
-              start: 274
-              end: 274
+              start: 278
+              end: 278
         - severity: info
           name: pdfTeX
           category: Package hyperref
@@ -1342,8 +1356,8 @@ files:
           log:
             file: thesis.log
             range:
-              start: 275
-              end: 275
+              start: 279
+              end: 279
         - name: pdfTeX
           severity: info
           text: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1352,8 +1366,8 @@ files:
           log:
             file: thesis.log
             range:
-              start: 277
-              end: 277
+              start: 281
+              end: 281
         - name: pdfTeX
           severity: info
           text: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
@@ -1363,8 +1377,8 @@ files:
           log:
             file: thesis.log
             range:
-              start: 279
-              end: 279
+              start: 283
+              end: 283
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -1377,8 +1391,8 @@ files:
           log:
             file: thesis.log
             range:
-              start: 283
-              end: 283
+              start: 287
+              end: 287
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -1391,8 +1405,8 @@ files:
           log:
             file: thesis.log
             range:
-              start: 284
-              end: 284
+              start: 288
+              end: 288
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -1405,45 +1419,13 @@ files:
           log:
             file: thesis.log
             range:
-              start: 285
-              end: 285
+              start: 289
+              end: 289
         - severity: info
           name: pdfTeX
           category: LaTeX Font
           text: >-
             Font shape `OT1/ptm/bx/n' in size <12> not available Font shape
-            `OT1/ptm/b/n' tried instead.
-          source:
-            file: abstract.tex
-            range:
-              start: 2
-              end: 2
-          log:
-            file: thesis.log
-            range:
-              start: 297
-              end: 298
-        - severity: info
-          name: pdfTeX
-          category: LaTeX Font
-          text: >-
-            Font shape `OT1/ptm/bx/n' in size <17.28> not available Font shape
-            `OT1/ptm/b/n' tried instead.
-          source:
-            file: abstract.tex
-            range:
-              start: 2
-              end: 2
-          log:
-            file: thesis.log
-            range:
-              start: 299
-              end: 300
-        - severity: info
-          name: pdfTeX
-          category: LaTeX Font
-          text: >-
-            Font shape `OT1/ptm/bx/n' in size <14.4> not available Font shape
             `OT1/ptm/b/n' tried instead.
           source:
             file: abstract.tex
@@ -1459,6 +1441,38 @@ files:
           name: pdfTeX
           category: LaTeX Font
           text: >-
+            Font shape `OT1/ptm/bx/n' in size <17.28> not available Font shape
+            `OT1/ptm/b/n' tried instead.
+          source:
+            file: abstract.tex
+            range:
+              start: 2
+              end: 2
+          log:
+            file: thesis.log
+            range:
+              start: 303
+              end: 304
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `OT1/ptm/bx/n' in size <14.4> not available Font shape
+            `OT1/ptm/b/n' tried instead.
+          source:
+            file: abstract.tex
+            range:
+              start: 2
+              end: 2
+          log:
+            file: thesis.log
+            range:
+              start: 305
+              end: 306
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: >-
             Font shape `OT1/ptm/bx/n' in size <20.74> not available Font shape
             `OT1/ptm/b/n' tried instead.
           source:
@@ -1469,8 +1483,8 @@ files:
           log:
             file: thesis.log
             range:
-              start: 307
-              end: 308
+              start: 311
+              end: 312
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1483,8 +1497,8 @@ files:
           log:
             file: thesis.log
             range:
-              start: 317
-              end: 317
+              start: 321
+              end: 321
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1499,98 +1513,114 @@ files:
           log:
             file: thesis.log
             range:
-              start: 321
-              end: 322
+              start: 325
+              end: 326
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `OT1/ptm/bx/n' in size <24.88> not available Font shape
+            `OT1/ptm/b/n' tried instead.
+          source:
+            file: thesis.tex
+            range:
+              start: 53
+              end: 53
+          log:
+            file: thesis.log
+            range:
+              start: 344
+              end: 345
         - severity: info
           name: pdfTeX
           category: Package atveryend
           text: Empty hook `BeforeClearDocument'
           source:
-            file: acknowledgements.tex
+            file: thesis.tex
             range:
-              start: 1
-              end: 1
+              start: 69
+              end: 69
           log:
             file: thesis.log
             range:
-              start: 326
-              end: 326
+              start: 400
+              end: 400
         - severity: info
           name: pdfTeX
           category: Package atveryend
           text: Empty hook `AfterLastShipout'
           source:
-            file: acknowledgements.tex
+            file: thesis.tex
             range:
-              start: 1
-              end: 1
+              start: 69
+              end: 69
           log:
             file: thesis.log
             range:
-              start: 327
-              end: 327
+              start: 401
+              end: 401
         - severity: info
           name: pdfTeX
           category: Package atveryend
           text: Executing hook `AtVeryEndDocument'
           source:
-            file: acknowledgements.tex
+            file: thesis.tex
             range:
-              start: 1
-              end: 1
+              start: 69
+              end: 69
           log:
             file: thesis.log
             range:
-              start: 331
-              end: 331
+              start: 409
+              end: 409
         - severity: info
           name: pdfTeX
           category: Package atveryend
           text: Executing hook `AtEndAfterFileList'
           source:
-            file: acknowledgements.tex
+            file: thesis.tex
             range:
-              start: 1
-              end: 1
+              start: 69
+              end: 69
           log:
             file: thesis.log
             range:
-              start: 332
-              end: 332
+              start: 410
+              end: 410
         - severity: info
           name: pdfTeX
           category: Package rerunfilecheck
           text: >-
             File `thesis.out' has not changed. Checksum:
-            D41D8CD98F00B204E9800998ECF8427E;0.
+            C43E78ADFA3BCD1531D4ECD2469A40A6;104.
           source:
-            file: acknowledgements.tex
+            file: thesis.tex
           log:
             file: thesis.log
             range:
-              start: 333
-              end: 334
+              start: 411
+              end: 412
         - severity: info
           name: pdfTeX
           category: Package atveryend
           text: Empty hook `AtVeryVeryEnd'
           source:
-            file: acknowledgements.tex
+            file: thesis.tex
             range:
-              start: 1
-              end: 1
+              start: 69
+              end: 69
           log:
             file: thesis.log
             range:
-              start: 335
-              end: 335
+              start: 413
+              end: 413
       inputs: []
       outputs:
         - thesis.pdf
       calls: []
     type: ParsedLaTeXLog
   thesis.aux-ParsedLaTeXAuxilary:
-    timeStamp: 2020-03-17T02:20:10.164Z
+    timeStamp: 2020-03-17T21:18:27.307Z
     jobNames: []
     value:
       commands:
@@ -1612,6 +1642,9 @@ files:
         - gdef
         - providecommand
         - providecommand
+        - '@input'
+        - '@input'
+        - bibdata
     type: ParsedLaTeXAuxilary
   /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc:
     timeStamp: 2006-12-10T01:13:44.000Z
@@ -1820,14 +1853,14 @@ files:
     timeStamp: 2019-05-08T18:52:26.000Z
     jobNames: []
   abstract.tex:
-    timeStamp: 2020-03-17T18:14:46.876Z
+    timeStamp: 2020-03-17T23:35:10.528Z
     jobNames: []
-    hash: Ullf35VnqElDRxjHPBb0dszoyaoodMj74pa9oZDpT7U=
+    hash: Db7ABNqbkAcAb5gCbzKRAX2B2q5oITXHTXaN1htvMcA=
     type: TeX
   acknowledgements.tex:
-    timeStamp: 2020-03-17T02:16:28.082Z
+    timeStamp: 2020-03-17T18:49:48.249Z
     jobNames: []
-    hash: yDeJqVL8tL4PRY/jgEuVxazhFPjPGZkZHhdVSJB4z3Q=
+    hash: C9x6oq2eG+t/wPIpcIkTZM/c7aXWPniEvYjg3/Z0nts=
     type: TeX
   yalephd.cls:
     timeStamp: 2020-03-16T23:11:46.942Z
@@ -1835,52 +1868,174 @@ files:
     hash: mXwDsCl6GkSW9GsDX6vTYuTn5PPdfoG+Nc2yvvGegU8=
     type: LaTeXClass
   thesis.aux:
-    timeStamp: 2020-03-17T18:36:02.663Z
+    timeStamp: 2020-03-17T23:35:16.972Z
     jobNames: []
-    hash: fkcvTXxHhYJbYMWCi/8VyeHPWPwdsuDUfAwULWl6vk8=
+    hash: MUl2qH9j0mcF7QkYa5BXz6fzqIepl26chRCz7jPgsLg=
     type: LaTeXAuxilary
   thesis.fls:
-    timeStamp: 2020-03-17T18:36:02.669Z
+    timeStamp: 2020-03-17T23:35:16.979Z
     jobNames: []
-    hash: JYD1+81fKl8NQcCUJkX/FE6AQu+d7k3wQdaDpzev6Vo=
+    hash: G62jVL96rRi6mwOFlZllWHedNQRG+/4LxI88Z7T8P+I=
     type: FileListing
   thesis.log:
-    timeStamp: 2020-03-17T18:36:02.686Z
+    timeStamp: 2020-03-17T23:35:16.997Z
     jobNames: []
-    hash: u3KfwrvRjUH+dyAclqSbzV8C4/r2LKbL0tYBsXM5hBI=
+    hash: cGa6zSKXYRN3qN7o3fXNSl8vrlFKbmnw8WNRjCj928A=
     type: LaTeXLog
     subType: pdfTeX
   thesis.synctex.gz:
-    timeStamp: 2020-03-17T18:36:02.686Z
+    timeStamp: 2020-03-17T23:35:16.997Z
     jobNames: []
-    hash: alu9jEfx2lZpz73hgAWbXGGTrzZicWgPQPIFJf3MmLg=
+    hash: pSR1zuG9c390IdEW4MyZ2Zq7Z8fdvAHoRJ7gBxG7Yjw=
     type: SyncTeX
   thesis.pdf:
-    timeStamp: 2020-03-17T18:36:02.686Z
+    timeStamp: 2020-03-17T23:35:16.996Z
     jobNames: []
-    hash: ILo0coJJiRr7DdzTivVj6MEIL5Ccku2wdaGWkrk1Uqc=
+    hash: PnLMfHDH2wiNmoDuTuE4+BCN8JD3v1RH6aag+NJB7DQ=
     type: PortableDocumentFormat
   thesis.out:
-    timeStamp: 2020-03-17T18:36:02.484Z
+    timeStamp: 2020-03-17T23:35:16.973Z
     jobNames: []
-    hash: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+    hash: b8EYigdecbDWKgPO11ejkwwYV+Z/iYh8o8JmgQl/zHs=
     type: OUT
   thesis.blg:
-    timeStamp: 2020-03-17T18:33:38.481Z
+    timeStamp: 2020-03-17T23:26:51.135Z
     jobNames: []
-    hash: fRvUpMKnBPLv2G8NyzTV6FlzhfHaseHJo+v0/E0sbXg=
+    hash: HAoPWXSEREbFiIEWqa7g5nl8u+0W15aA5dLnKWjItVM=
     type: BibTeXLog
     subType: BibTeX
   thesis.blg-ParsedBibTeXLog:
-    timeStamp: 2020-03-17T18:36:02.201Z
+    timeStamp: 2020-03-17T21:18:27.492Z
     jobNames: []
     value:
       messages: []
       inputs:
         - thesis.aux
+        - 1-Introduction.aux
+        - 2-WavelengthCalibration.aux
       outputs: []
       calls: []
     type: ParsedBibTeXLog
+  1-Introduction.aux:
+    timeStamp: 2020-03-17T23:35:16.970Z
+    jobNames: []
+    hash: O0YK5M7YS76L+1gMlidltsK2zRJDJSoNBeQo+C9nd0U=
+    type: LaTeXAuxilary
+  1-Introduction.tex:
+    timeStamp: 2020-03-17T21:12:10.546Z
+    jobNames: []
+    hash: GBLu6C/jrSSzDvGLqIqo8wjadv+AvyOHTjWcyxDRyyM=
+    type: TeX
+  2-WavelengthCalibration.aux:
+    timeStamp: 2020-03-17T23:35:16.971Z
+    jobNames: []
+    hash: +7tR4FRPkxVfaVda8q2Nx1LQiZWTV7CFY0Tgru4qYck=
+    type: LaTeXAuxilary
+  2-WavelengthCalibration.tex:
+    timeStamp: 2020-03-17T18:46:54.306Z
+    jobNames: []
+    hash: nitaSUOTh7pSahtQJLcbV7Vko8oPuRAjxjf2gf25auc=
+    type: TeX
+  dedication.tex:
+    timeStamp: 2020-03-16T22:38:06.079Z
+    jobNames: []
+    hash: 3b4CGUb/OhQRgPhvBMOaaHl0UWbEl3lj4ufEYn0KjJM=
+    type: TeX
+  thesis.bbl:
+    timeStamp: 2020-03-17T23:26:51.000Z
+    jobNames: []
+    hash: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+  thesis.lof:
+    timeStamp: 2020-03-17T23:35:16.973Z
+    jobNames: []
+    hash: 8ZDKoiDMNkazKVVZWfic05Z0v8hj4Ftg/I/9IPKCs+8=
+    type: ListOfFigures
+  thesis.lot:
+    timeStamp: 2020-03-17T23:35:16.973Z
+    jobNames: []
+    hash: 8ZDKoiDMNkazKVVZWfic05Z0v8hj4Ftg/I/9IPKCs+8=
+    type: ListOfTables
+  thesis.toc:
+    timeStamp: 2020-03-17T23:35:16.973Z
+    jobNames: []
+    hash: sAvLG4cr31qq7kHvg6otXRpPIeeWaXsLgcrbB2zKiDg=
+    type: TableOfContents
+  1-Introduction.aux-ParsedLaTeXAuxilary:
+    timeStamp: 2020-03-17T21:18:28.060Z
+    jobNames: []
+    value:
+      commands:
+        - relax
+        - providecommand
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - newlabel
+        - '@setckpt'
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+    type: ParsedLaTeXAuxilary
+  2-WavelengthCalibration.aux-ParsedLaTeXAuxilary:
+    timeStamp: 2020-03-17T21:18:28.062Z
+    jobNames: []
+    value:
+      commands:
+        - relax
+        - providecommand
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - newlabel
+        - '@setckpt'
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+        - setcounter
+    type: ParsedLaTeXAuxilary
 rules:
   - name: ApplyOptions
     command: load
@@ -2104,6 +2259,24 @@ rules:
         type: default
       - file: thesis.out
         type: default
+      - file: 1-Introduction.aux
+        type: default
+      - file: 1-Introduction.tex
+        type: default
+      - file: 2-WavelengthCalibration.aux
+        type: default
+      - file: 2-WavelengthCalibration.tex
+        type: default
+      - file: dedication.tex
+        type: default
+      - file: thesis.bbl
+        type: default
+      - file: thesis.lof
+        type: default
+      - file: thesis.lot
+        type: default
+      - file: thesis.toc
+        type: default
     outputs:
       - file: thesis.aux
         type: default
@@ -2116,6 +2289,16 @@ rules:
       - file: thesis.pdf
         type: target
       - file: thesis.out
+        type: default
+      - file: 1-Introduction.aux
+        type: default
+      - file: 2-WavelengthCalibration.aux
+        type: default
+      - file: thesis.lof
+        type: default
+      - file: thesis.lot
+        type: default
+      - file: thesis.toc
         type: default
   - name: LogProducedTargets
     command: build
@@ -2225,6 +2408,44 @@ rules:
     parameters:
       - thesis.blg-ParsedBibTeXLog
     inputs:
+      - file: thesis.blg-ParsedBibTeXLog
+        type: default
+    outputs: []
+  - name: ParseLaTeXAuxilary
+    command: build
+    phase: execute
+    parameters:
+      - 1-Introduction.aux
+    inputs:
+      - file: 1-Introduction.aux
+        type: default
+    outputs:
+      - file: 1-Introduction.aux-ParsedLaTeXAuxilary
+        type: default
+  - name: ParseLaTeXAuxilary
+    command: build
+    phase: execute
+    parameters:
+      - 2-WavelengthCalibration.aux
+    inputs:
+      - file: 2-WavelengthCalibration.aux
+        type: default
+    outputs:
+      - file: 2-WavelengthCalibration.aux-ParsedLaTeXAuxilary
+        type: default
+  - name: BibTeX
+    command: build
+    phase: execute
+    parameters:
+      - thesis.aux
+      - thesis.aux-ParsedLaTeXAuxilary
+    inputs:
+      - file: thesis.aux
+        type: default
+      - file: thesis.aux-ParsedLaTeXAuxilary
+        type: default
+      - file: thesis.log-ParsedLaTeXLog
+        type: default
       - file: thesis.blg-ParsedBibTeXLog
         type: default
     outputs: []
