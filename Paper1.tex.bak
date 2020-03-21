@@ -1,0 +1,13 @@
+\chapter{Paper 1} \label{chapter: paper1}
+
+\begin{center}
+{\Large \textit{Authors}}
+
+\noindent\textit{Citation to original (if applicable)}
+\end{center}
+
+\section*{Abstract}
+
+\section{Introduction}
+
+% etc

@@ -1,2 +1,34 @@
 \chapter{Wavelength Calibration} \label{chapter:Wavelength Calibration}
-Text of cHAP 222222 -2 TWO
+\begin{enumerate}
+\item Why do we need to calibrate wavelength?
+\begin{itemize}
+\item The spectrograph's detector can only record intensity (\textit{I}) as a function of pixel location 
+\item We need some method to transition from this I(x,y) $\rightarrow I(\lambda$)
+\item A Wavelength Solution converts (x,y) $\rightarrow \lambda : \lambda_{soln} = f(x,y)$
+\item In the EXPRES instrument's case, this x corresponds to the calculated One-Dimensional pixel value of a given Echelle Order and y corresponds to the Echelle order itself
+\end{itemize}
+
+\item How \textit{precise} do we need to be?
+\begin{itemize}
+\item $\frac{\Delta \lambda}{\lambda} \approx \frac{\Delta v}{v}$
+\item A change in wavelength of 1 \AA\ at 5000 \AA\ equates to an enormous RV of m s \textsuperscript{-1}
+\end{itemize}
+\item In order to convert from $(x,y) \rightarrow \lambda$ we need a series of fixed reference wavelengths.
+\item EXPRES' Wavelength Calibration Sources
+
+\begin{itemize}
+\item \textbf{Thorium Argon} cathode lamp (\textit{ThAr})  produces atomic spectral lines
+\begin{itemize}
+\item Current catalog gathered from NIST, the lines are not specific to EXPRES
+\item Wide wavelength range from between 3500 and 8500 \AA\
+\item Used to generate a course wavelength solution $\lambda_{ThAr}$(order, pixel) which then assigns mode number to the LFC lines
+\end{itemize}
+\item \textbf{Laser Frequency Comb} (\textit{LFC}) produces a "picket fence" of sharp lines at even spacing within frequency space
+\begin{itemize}
+\item If the mode number of a line is known (from the ThAr solution), its central wavelength can be very precisely characterized
+\item Produces an abundance of lines, one every $\sim$ 10 pixels
+\end{itemize}
+
+\end{itemize}
+\item -
+\end{enumerate}

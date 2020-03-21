@@ -57,8 +57,8 @@
 
     \mainmatter      % Reset the pagenumbering options
 	\include{1-Introduction}
-	\include{2-WavelengthCalibration}
-% 	\include{Chapter3}
+	\include{2-WavelengthCalibration}	
+ 	\include{LaTeXLearning}
 
 
    \addcontentsline{toc}{chapter}{Bibliography} % To get an entry in the TOC.

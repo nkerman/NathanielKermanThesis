@@ -1,0 +1,19 @@
+\chapter{LaTeX Learning} \label{chapter:LaTeXLearning} 
+\newpage
+%\thispagestyle{plain} % empty
+%\mbox{}
+Here I am learning to LaTex:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=.85]{../BuildCatalog/plots/WavelengthLimits.png} 
+    \caption{Test Plot 1}
+    \label{fig:WavelengthLimits}
+\end{figure}
+%
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=.85]{../BuildCatalog/plots/ResidualsIn2D_filterThArPts_post2Chauv_cutoff10b.png} 
+    \caption{Test Plot 2}
+    \label{fig:ResidualsIn2D_filterThArPts_post2Chauv_cutoff10b}
+\end{figure}

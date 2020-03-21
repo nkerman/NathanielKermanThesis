@@ -71,7 +71,7 @@ options:
   $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
 files:
   dicy-instance.yaml-ParsedYAML:
-    timeStamp: 2020-03-17T23:26:50.604Z
+    timeStamp: 2020-03-19T22:51:08.291Z
     jobNames: []
     value:
       severity: info
@@ -83,12 +83,12 @@ files:
     jobNames: []
     type: ParsedYAML
   thesis.tex-ParsedLaTeXMagic:
-    timeStamp: 2020-03-17T02:20:08.060Z
+    timeStamp: 2020-03-19T22:51:08.313Z
     jobNames: []
     value: {}
     type: ParsedLaTeXMagic
   /Users/nkerman/Library/Application Support/dicy/config.yaml-ParsedYAML:
-    timeStamp: 2020-03-17T02:20:08.057Z
+    timeStamp: 2020-03-19T22:51:08.311Z
     jobNames: []
     value:
       synctex: true
@@ -130,20 +130,26 @@ files:
       $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
     type: ParsedYAML
   thesis.tex:
-    timeStamp: 2020-03-17T23:35:16.356Z
+    timeStamp: 2020-03-21T02:39:40.855Z
     jobNames: []
-    hash: Fp0JLOi67LvZB/vv4U0VdPO4gZXlCDHZLqQcOUftjqM=
+    hash: 1nv3iXaQaJin4Wl/7096zDrARiluk9E0SrtHux2pZQE=
     type: LaTeX
     subType: yalephd
   /Users/nkerman/Library/Application Support/dicy/config.yaml:
-    timeStamp: 2020-03-17T23:26:50.613Z
+    timeStamp: 2020-03-19T22:50:09.189Z
     jobNames: []
     type: YAML
   x.y-Nil:
     jobNames: []
     type: Nil
+  thesis.log:
+    timeStamp: 2020-03-21T02:39:42.101Z
+    jobNames: []
+    hash: VJW3hvsTcOM2D8rv/fN9QwYGU2RSArnJvN5Fjq2QFnM=
+    type: LaTeXLog
+    subType: pdfTeX
   thesis.fls-ParsedFileListing:
-    timeStamp: 2020-03-17T21:18:27.311Z
+    timeStamp: 2020-03-21T02:38:14.129Z
     jobNames: []
     value:
       messages: []
@@ -154,14 +160,44 @@ files:
         - /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
         - /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
         - /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+        - /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+        - /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+        - >-
+          /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+        - >-
+          /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+        - >-
+          /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+        - >-
+          /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+        - >-
+          /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+        - >-
+          /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+        - /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+        - /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+        - /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+        - /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
         - /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+        - /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+        - /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
         - /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+        - /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+        - /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+        - >-
+          /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+        - >-
+          /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
         - >-
           /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+        - >-
+          /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
         - /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
         - /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+        - /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
         - /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
         - /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+        - /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
         - /usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
         - /usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
         - >-
@@ -172,6 +208,8 @@ files:
           /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
         - /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
         - /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+        - /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
         - /usr/local/texlive/2019/texmf-dist/tex/latex/base/bk12.clo
         - /usr/local/texlive/2019/texmf-dist/tex/latex/base/book.cls
         - /usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
@@ -241,7 +279,7 @@ files:
       calls: []
     type: ParsedFileListing
   thesis.log-ParsedLaTeXLog:
-    timeStamp: 2020-03-17T23:26:51.618Z
+    timeStamp: 2020-03-21T02:38:14.124Z
     jobNames: []
     value:
       messages:
@@ -1472,19 +1510,47 @@ files:
         - severity: info
           name: pdfTeX
           category: LaTeX Font
+          text: Try loading font information for U+msa
+          source:
+            file: abstract.tex
+            range:
+              start: 6
+              end: 6
+          log:
+            file: thesis.log
+            range:
+              start: 307
+              end: 307
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for U+msb
+          source:
+            file: abstract.tex
+            range:
+              start: 6
+              end: 6
+          log:
+            file: thesis.log
+            range:
+              start: 311
+              end: 311
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
           text: >-
             Font shape `OT1/ptm/bx/n' in size <20.74> not available Font shape
             `OT1/ptm/b/n' tried instead.
           source:
             file: thesis.tex
             range:
-              start: 48
-              end: 48
+              start: 49
+              end: 49
           log:
             file: thesis.log
             range:
-              start: 311
-              end: 312
+              start: 318
+              end: 319
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1492,13 +1558,13 @@ files:
           source:
             file: thesis.tex
             range:
-              start: 48
-              end: 48
+              start: 49
+              end: 49
           log:
             file: thesis.log
             range:
-              start: 321
-              end: 321
+              start: 328
+              end: 328
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1508,13 +1574,13 @@ files:
           source:
             file: thesis.tex
             range:
-              start: 48
-              end: 48
+              start: 49
+              end: 49
           log:
             file: thesis.log
             range:
-              start: 325
-              end: 326
+              start: 332
+              end: 333
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1524,13 +1590,13 @@ files:
           source:
             file: thesis.tex
             range:
-              start: 53
-              end: 53
+              start: 54
+              end: 54
           log:
             file: thesis.log
             range:
-              start: 344
-              end: 345
+              start: 351
+              end: 352
         - severity: info
           name: pdfTeX
           category: Package atveryend
@@ -1538,13 +1604,13 @@ files:
           source:
             file: thesis.tex
             range:
-              start: 69
-              end: 69
+              start: 70
+              end: 70
           log:
             file: thesis.log
             range:
-              start: 400
-              end: 400
+              start: 407
+              end: 407
         - severity: info
           name: pdfTeX
           category: Package atveryend
@@ -1552,13 +1618,13 @@ files:
           source:
             file: thesis.tex
             range:
-              start: 69
-              end: 69
+              start: 70
+              end: 70
           log:
             file: thesis.log
             range:
-              start: 401
-              end: 401
+              start: 408
+              end: 408
         - severity: info
           name: pdfTeX
           category: Package atveryend
@@ -1566,13 +1632,13 @@ files:
           source:
             file: thesis.tex
             range:
-              start: 69
-              end: 69
+              start: 70
+              end: 70
           log:
             file: thesis.log
             range:
-              start: 409
-              end: 409
+              start: 416
+              end: 416
         - severity: info
           name: pdfTeX
           category: Package atveryend
@@ -1580,26 +1646,26 @@ files:
           source:
             file: thesis.tex
             range:
-              start: 69
-              end: 69
+              start: 70
+              end: 70
           log:
             file: thesis.log
             range:
-              start: 410
-              end: 410
+              start: 417
+              end: 417
         - severity: info
           name: pdfTeX
           category: Package rerunfilecheck
           text: >-
             File `thesis.out' has not changed. Checksum:
-            C43E78ADFA3BCD1531D4ECD2469A40A6;104.
+            25C796D72B130A5E0CC1030335BA79C2;119.
           source:
             file: thesis.tex
           log:
             file: thesis.log
             range:
-              start: 411
-              end: 412
+              start: 418
+              end: 419
         - severity: info
           name: pdfTeX
           category: Package atveryend
@@ -1607,20 +1673,40 @@ files:
           source:
             file: thesis.tex
             range:
-              start: 69
-              end: 69
+              start: 70
+              end: 70
           log:
             file: thesis.log
             range:
-              start: 413
-              end: 413
+              start: 420
+              end: 420
       inputs: []
       outputs:
         - thesis.pdf
       calls: []
     type: ParsedLaTeXLog
+  thesis.pdf:
+    timeStamp: 2020-03-21T02:39:42.100Z
+    jobNames: []
+    hash: gEtGV1ofoqDT/0+mR3bbKyIYzJxG3S24VGd1ixMhwww=
+    type: PortableDocumentFormat
+  thesis.aux:
+    timeStamp: 2020-03-21T02:39:42.063Z
+    jobNames: []
+    hash: MUl2qH9j0mcF7QkYa5BXz6fzqIepl26chRCz7jPgsLg=
+    type: LaTeXAuxilary
+  thesis.fls:
+    timeStamp: 2020-03-21T02:39:42.083Z
+    jobNames: []
+    hash: x1fp0SGMNygrrLvCELheKf1CeiIGV5KSochU+pRFACg=
+    type: FileListing
+  thesis.synctex.gz:
+    timeStamp: 2020-03-21T02:39:42.101Z
+    jobNames: []
+    hash: Mq+CmjJDr0XYbW7qq7zSeWUuHlnzQnPDmwWlMpXkxII=
+    type: SyncTeX
   thesis.aux-ParsedLaTeXAuxilary:
-    timeStamp: 2020-03-17T21:18:27.307Z
+    timeStamp: 2020-03-19T22:51:08.962Z
     jobNames: []
     value:
       commands:
@@ -1646,6 +1732,18 @@ files:
         - '@input'
         - bibdata
     type: ParsedLaTeXAuxilary
+  thesis.blg-ParsedBibTeXLog:
+    timeStamp: 2020-03-19T22:51:10.220Z
+    jobNames: []
+    value:
+      messages: []
+      inputs:
+        - thesis.aux
+        - 1-Introduction.aux
+        - 2-WavelengthCalibration.aux
+      outputs: []
+      calls: []
+    type: ParsedBibTeXLog
   /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc:
     timeStamp: 2006-12-10T01:13:44.000Z
     jobNames: []
@@ -1852,116 +1950,68 @@ files:
   /usr/local/texlive/2019/texmf.cnf:
     timeStamp: 2019-05-08T18:52:26.000Z
     jobNames: []
-  abstract.tex:
-    timeStamp: 2020-03-17T23:35:10.528Z
+  1-Introduction.aux:
+    timeStamp: 2020-03-21T02:39:42.061Z
     jobNames: []
-    hash: Db7ABNqbkAcAb5gCbzKRAX2B2q5oITXHTXaN1htvMcA=
+    hash: Hf3ZtKaXGnN8JGRtb229EmMbTe2FDzzhwpo8Y4sX37E=
+    type: LaTeXAuxilary
+  1-Introduction.tex:
+    timeStamp: 2020-03-21T02:34:13.247Z
+    jobNames: []
+    hash: lRX5VeNISv5+PjGFDGZizzlihGfvcHZdXGXWOhoQHTA=
+    type: TeX
+  2-WavelengthCalibration.aux:
+    timeStamp: 2020-03-21T02:39:42.062Z
+    jobNames: []
+    hash: B3KLD909zQi11MOezF0Ft4SKGucP4dNdKMGQPYkwBhE=
+    type: LaTeXAuxilary
+  2-WavelengthCalibration.tex:
+    timeStamp: 2020-03-21T02:30:58.611Z
+    jobNames: []
+    hash: q7NAB12qJyBXqP3zDq+GSFlqVR/rjxKFIdsP0vIDgnk=
+    type: TeX
+  abstract.tex:
+    timeStamp: 2020-03-21T02:39:39.253Z
+    jobNames: []
+    hash: p1AzjwhJH9ZXFl6VeWaQZcHsJwCxG0Ga2mlapzv1GP8=
     type: TeX
   acknowledgements.tex:
     timeStamp: 2020-03-17T18:49:48.249Z
     jobNames: []
     hash: C9x6oq2eG+t/wPIpcIkTZM/c7aXWPniEvYjg3/Z0nts=
     type: TeX
-  yalephd.cls:
-    timeStamp: 2020-03-16T23:11:46.942Z
-    jobNames: []
-    hash: mXwDsCl6GkSW9GsDX6vTYuTn5PPdfoG+Nc2yvvGegU8=
-    type: LaTeXClass
-  thesis.aux:
-    timeStamp: 2020-03-17T23:35:16.972Z
-    jobNames: []
-    hash: MUl2qH9j0mcF7QkYa5BXz6fzqIepl26chRCz7jPgsLg=
-    type: LaTeXAuxilary
-  thesis.fls:
-    timeStamp: 2020-03-17T23:35:16.979Z
-    jobNames: []
-    hash: G62jVL96rRi6mwOFlZllWHedNQRG+/4LxI88Z7T8P+I=
-    type: FileListing
-  thesis.log:
-    timeStamp: 2020-03-17T23:35:16.997Z
-    jobNames: []
-    hash: cGa6zSKXYRN3qN7o3fXNSl8vrlFKbmnw8WNRjCj928A=
-    type: LaTeXLog
-    subType: pdfTeX
-  thesis.synctex.gz:
-    timeStamp: 2020-03-17T23:35:16.997Z
-    jobNames: []
-    hash: pSR1zuG9c390IdEW4MyZ2Zq7Z8fdvAHoRJ7gBxG7Yjw=
-    type: SyncTeX
-  thesis.pdf:
-    timeStamp: 2020-03-17T23:35:16.996Z
-    jobNames: []
-    hash: PnLMfHDH2wiNmoDuTuE4+BCN8JD3v1RH6aag+NJB7DQ=
-    type: PortableDocumentFormat
-  thesis.out:
-    timeStamp: 2020-03-17T23:35:16.973Z
-    jobNames: []
-    hash: b8EYigdecbDWKgPO11ejkwwYV+Z/iYh8o8JmgQl/zHs=
-    type: OUT
-  thesis.blg:
-    timeStamp: 2020-03-17T23:26:51.135Z
-    jobNames: []
-    hash: HAoPWXSEREbFiIEWqa7g5nl8u+0W15aA5dLnKWjItVM=
-    type: BibTeXLog
-    subType: BibTeX
-  thesis.blg-ParsedBibTeXLog:
-    timeStamp: 2020-03-17T21:18:27.492Z
-    jobNames: []
-    value:
-      messages: []
-      inputs:
-        - thesis.aux
-        - 1-Introduction.aux
-        - 2-WavelengthCalibration.aux
-      outputs: []
-      calls: []
-    type: ParsedBibTeXLog
-  1-Introduction.aux:
-    timeStamp: 2020-03-17T23:35:16.970Z
-    jobNames: []
-    hash: O0YK5M7YS76L+1gMlidltsK2zRJDJSoNBeQo+C9nd0U=
-    type: LaTeXAuxilary
-  1-Introduction.tex:
-    timeStamp: 2020-03-17T21:12:10.546Z
-    jobNames: []
-    hash: GBLu6C/jrSSzDvGLqIqo8wjadv+AvyOHTjWcyxDRyyM=
-    type: TeX
-  2-WavelengthCalibration.aux:
-    timeStamp: 2020-03-17T23:35:16.971Z
-    jobNames: []
-    hash: +7tR4FRPkxVfaVda8q2Nx1LQiZWTV7CFY0Tgru4qYck=
-    type: LaTeXAuxilary
-  2-WavelengthCalibration.tex:
-    timeStamp: 2020-03-17T18:46:54.306Z
-    jobNames: []
-    hash: nitaSUOTh7pSahtQJLcbV7Vko8oPuRAjxjf2gf25auc=
-    type: TeX
   dedication.tex:
     timeStamp: 2020-03-16T22:38:06.079Z
     jobNames: []
     hash: 3b4CGUb/OhQRgPhvBMOaaHl0UWbEl3lj4ufEYn0KjJM=
     type: TeX
-  thesis.bbl:
-    timeStamp: 2020-03-17T23:26:51.000Z
-    jobNames: []
-    hash: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
   thesis.lof:
-    timeStamp: 2020-03-17T23:35:16.973Z
+    timeStamp: 2020-03-21T02:39:42.064Z
     jobNames: []
     hash: 8ZDKoiDMNkazKVVZWfic05Z0v8hj4Ftg/I/9IPKCs+8=
     type: ListOfFigures
   thesis.lot:
-    timeStamp: 2020-03-17T23:35:16.973Z
+    timeStamp: 2020-03-21T02:39:42.064Z
     jobNames: []
     hash: 8ZDKoiDMNkazKVVZWfic05Z0v8hj4Ftg/I/9IPKCs+8=
     type: ListOfTables
-  thesis.toc:
-    timeStamp: 2020-03-17T23:35:16.973Z
+  thesis.out:
+    timeStamp: 2020-03-21T02:39:42.064Z
     jobNames: []
-    hash: sAvLG4cr31qq7kHvg6otXRpPIeeWaXsLgcrbB2zKiDg=
+    hash: DvoFpPKbIvSf+pTdexbmMLJYN01YQgAIu1qU/7DScnU=
+    type: OUT
+  thesis.toc:
+    timeStamp: 2020-03-21T02:39:42.064Z
+    jobNames: []
+    hash: M2tT72Gfai9UFTpZrfsLVR+TZNiLZWQ5jdCg+P1WLME=
     type: TableOfContents
+  yalephd.cls:
+    timeStamp: 2020-03-16T23:11:46.942Z
+    jobNames: []
+    hash: mXwDsCl6GkSW9GsDX6vTYuTn5PPdfoG+Nc2yvvGegU8=
+    type: LaTeXClass
   1-Introduction.aux-ParsedLaTeXAuxilary:
-    timeStamp: 2020-03-17T21:18:28.060Z
+    timeStamp: 2020-03-19T22:51:09.276Z
     jobNames: []
     value:
       commands:
@@ -1999,7 +2049,7 @@ files:
         - setcounter
     type: ParsedLaTeXAuxilary
   2-WavelengthCalibration.aux-ParsedLaTeXAuxilary:
-    timeStamp: 2020-03-17T21:18:28.062Z
+    timeStamp: 2020-03-19T22:51:09.278Z
     jobNames: []
     value:
       commands:
@@ -2036,6 +2086,96 @@ files:
         - setcounter
         - setcounter
     type: ParsedLaTeXAuxilary
+  thesis.bbl:
+    timeStamp: 2020-03-21T02:39:04.789Z
+    jobNames: []
+    hash: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+  thesis.blg:
+    timeStamp: 2020-03-21T02:39:04.790Z
+    jobNames: []
+    hash: HAoPWXSEREbFiIEWqa7g5nl8u+0W15aA5dLnKWjItVM=
+    type: BibTeXLog
+    subType: BibTeX
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm:
+    timeStamp: 2009-06-30T17:13:40.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm:
+    timeStamp: 2009-06-30T17:13:40.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm:
+    timeStamp: 2009-06-30T17:13:40.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm:
+    timeStamp: 2009-06-30T17:13:40.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm:
+    timeStamp: 2009-06-30T17:13:40.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm:
+    timeStamp: 2009-06-30T17:13:40.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmex10.tfm:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr6.tfm:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr8.tfm:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb:
+    timeStamp: 2009-07-20T23:47:11.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb:
+    timeStamp: 2009-07-20T23:47:11.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb:
+    timeStamp: 2009-07-20T23:47:11.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb:
+    timeStamp: 2009-07-20T23:47:11.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb:
+    timeStamp: 2009-07-20T23:47:11.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb:
+    timeStamp: 2009-07-20T23:47:11.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd:
+    timeStamp: 2013-02-01T23:58:28.000Z
+    jobNames: []
+    type: FontDescription
+  /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd:
+    timeStamp: 2013-02-01T23:58:28.000Z
+    jobNames: []
+    type: FontDescription
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb:
+    timeStamp: 2006-01-09T23:35:48.000Z
+    jobNames: []
+  /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf:
+    timeStamp: 2006-01-09T01:04:13.000Z
+    jobNames: []
 rules:
   - name: ApplyOptions
     command: load
@@ -2125,6 +2265,8 @@ rules:
       - file: thesis.fls-ParsedFileListing
         type: default
       - file: thesis.log-ParsedLaTeXLog
+        type: default
+      - file: thesis.aux
         type: default
       - file: /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc
         type: default
@@ -2249,16 +2391,6 @@ rules:
         type: default
       - file: /usr/local/texlive/2019/texmf.cnf
         type: default
-      - file: abstract.tex
-        type: default
-      - file: acknowledgements.tex
-        type: default
-      - file: yalephd.cls
-        type: default
-      - file: thesis.aux
-        type: default
-      - file: thesis.out
-        type: default
       - file: 1-Introduction.aux
         type: default
       - file: 1-Introduction.tex
@@ -2267,17 +2399,91 @@ rules:
         type: default
       - file: 2-WavelengthCalibration.tex
         type: default
-      - file: dedication.tex
+      - file: abstract.tex
         type: default
-      - file: thesis.bbl
+      - file: acknowledgements.tex
+        type: default
+      - file: dedication.tex
         type: default
       - file: thesis.lof
         type: default
       - file: thesis.lot
         type: default
+      - file: thesis.out
+        type: default
       - file: thesis.toc
         type: default
+      - file: yalephd.cls
+        type: default
+      - file: thesis.bbl
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+        type: default
+      - file: /usr/local/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
+        type: default
     outputs:
+      - file: thesis.pdf
+        type: target
       - file: thesis.aux
         type: default
       - file: thesis.fls
@@ -2286,10 +2492,6 @@ rules:
         type: default
       - file: thesis.synctex.gz
         type: target
-      - file: thesis.pdf
-        type: target
-      - file: thesis.out
-        type: default
       - file: 1-Introduction.aux
         type: default
       - file: 2-WavelengthCalibration.aux
@@ -2298,44 +2500,21 @@ rules:
         type: default
       - file: thesis.lot
         type: default
+      - file: thesis.out
+        type: default
       - file: thesis.toc
         type: default
-  - name: LogProducedTargets
+  - name: ParseLaTeXLog
     command: build
-    phase: finalize
-    parameters: []
-    inputs: []
-    outputs: []
-  - name: CheckForMissingBuildRule
-    command: build
-    phase: finalize
-    parameters:
-      - thesis.tex
-    inputs:
-      - file: thesis.tex
-        type: default
-    outputs: []
-  - name: FindLogFiles
-    command: log
-    phase: initialize
-    parameters: []
-    inputs: []
-    outputs: []
-  - name: ReportLogMessages
-    command: log
     phase: execute
     parameters:
-      - thesis.log-ParsedLaTeXLog
+      - thesis.log
     inputs:
+      - file: thesis.log
+        type: default
+    outputs:
       - file: thesis.log-ParsedLaTeXLog
         type: default
-    outputs: []
-  - name: SaveCache
-    command: save
-    phase: execute
-    parameters: []
-    inputs: []
-    outputs: []
   - name: ParseLaTeXAuxilary
     command: build
     phase: execute
@@ -2358,57 +2537,24 @@ rules:
     outputs:
       - file: thesis.fls-ParsedFileListing
         type: default
-  - name: ParseLaTeXLog
+  - name: BibTeX
     command: build
     phase: execute
     parameters:
-      - thesis.log
+      - thesis.aux
+      - thesis.aux-ParsedLaTeXAuxilary
     inputs:
-      - file: thesis.log
+      - file: thesis.aux
         type: default
-    outputs:
+      - file: thesis.aux-ParsedLaTeXAuxilary
+        type: default
       - file: thesis.log-ParsedLaTeXLog
         type: default
-  - name: ParseLaTeXLog
-    command: log
-    phase: execute
-    parameters:
-      - thesis.log
-    inputs:
-      - file: thesis.log
-        type: default
-    outputs:
-      - file: thesis.log-ParsedLaTeXLog
-        type: default
-  - name: ParseBibTeXLog
-    command: build
-    phase: execute
-    parameters:
-      - thesis.blg
-    inputs:
-      - file: thesis.blg
-        type: default
-    outputs:
       - file: thesis.blg-ParsedBibTeXLog
         type: default
-  - name: ParseBibTeXLog
-    command: log
-    phase: execute
-    parameters:
-      - thesis.blg
-    inputs:
-      - file: thesis.blg
+      - file: 1-Introduction.aux
         type: default
-    outputs:
-      - file: thesis.blg-ParsedBibTeXLog
-        type: default
-  - name: ReportLogMessages
-    command: log
-    phase: execute
-    parameters:
-      - thesis.blg-ParsedBibTeXLog
-    inputs:
-      - file: thesis.blg-ParsedBibTeXLog
+      - file: 2-WavelengthCalibration.aux
         type: default
     outputs: []
   - name: ParseLaTeXAuxilary
@@ -2433,19 +2579,81 @@ rules:
     outputs:
       - file: 2-WavelengthCalibration.aux-ParsedLaTeXAuxilary
         type: default
-  - name: BibTeX
+  - name: LogProducedTargets
     command: build
+    phase: finalize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: CheckForMissingBuildRule
+    command: build
+    phase: finalize
+    parameters:
+      - thesis.tex
+    inputs:
+      - file: thesis.tex
+        type: default
+    outputs: []
+  - name: FindLogFiles
+    command: log
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ParseLaTeXLog
+    command: log
     phase: execute
     parameters:
-      - thesis.aux
-      - thesis.aux-ParsedLaTeXAuxilary
+      - thesis.log
     inputs:
-      - file: thesis.aux
+      - file: thesis.log
         type: default
-      - file: thesis.aux-ParsedLaTeXAuxilary
-        type: default
+    outputs:
       - file: thesis.log-ParsedLaTeXLog
         type: default
+  - name: ReportLogMessages
+    command: log
+    phase: execute
+    parameters:
+      - thesis.log-ParsedLaTeXLog
+    inputs:
+      - file: thesis.log-ParsedLaTeXLog
+        type: default
+    outputs: []
+  - name: ReportLogMessages
+    command: log
+    phase: execute
+    parameters:
+      - thesis.blg-ParsedBibTeXLog
+    inputs:
       - file: thesis.blg-ParsedBibTeXLog
         type: default
     outputs: []
+  - name: ParseBibTeXLog
+    command: log
+    phase: execute
+    parameters:
+      - thesis.blg
+    inputs:
+      - file: thesis.blg
+        type: default
+    outputs:
+      - file: thesis.blg-ParsedBibTeXLog
+        type: default
+  - name: SaveCache
+    command: save
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ParseBibTeXLog
+    command: build
+    phase: execute
+    parameters:
+      - thesis.blg
+    inputs:
+      - file: thesis.blg
+        type: default
+    outputs:
+      - file: thesis.blg-ParsedBibTeXLog
+        type: default
